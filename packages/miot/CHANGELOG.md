@@ -1,5 +1,11 @@
 # @mi-gpt/miot
 
+## 1.2.2
+
+### Patch Changes
+
+- efd2825: fix: install package name
+
 ## 1.2.1
 
 ### Patch Changes

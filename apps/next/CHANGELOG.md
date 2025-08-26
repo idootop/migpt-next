@@ -1,5 +1,12 @@
 # @mi-gpt/next
 
+## 1.3.2
+
+### Patch Changes
+
+- Updated dependencies [efd2825]
+  - @mi-gpt/miot@1.2.2
+
 ## 1.3.1
 
 ### Patch Changes
