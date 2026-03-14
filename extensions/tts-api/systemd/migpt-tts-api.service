@@ -1,0 +1,16 @@
+[Unit]
+Description=MiGPT TTS API Server
+After=network.target migpt-next.service
+
+[Service]
+Type=simple
+User=pi
+WorkingDirectory=/path/to/migpt-next/apps/example
+ExecStart=/usr/bin/node /path/to/migpt-next/apps/example/tts-api.js
+Restart=always
+RestartSec=10
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target
